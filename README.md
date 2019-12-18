@@ -31,7 +31,7 @@ If set to 1, the name of the file would be \[query_name\].txt under the `output/
 ### `process_xml.py`
 You don't need to run this code.
 
-This file contains all the preprocessing code we did from the raw grobid file, e.g. extracting information such as title, abstract, introduction, full body text, authors, citations, keywords (attempted), year of publication (attempted).
+This file contains all the preprocessing code we did from the raw grobid file, e.g. extracting information such as title, abstract, introduction, full body text, authors (name, email, affiliation), citations, keywords (attempted), year of publication (attempted).
 
 After information are extracted, they are dumped under `pickles/` which are used as input to `expert_recommend.py`.
 
