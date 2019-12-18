@@ -34,3 +34,5 @@ You don't need to run this code.
 This file contains all the preprocessing code we did from the raw grobid file, e.g. extracting information such as title, abstract, introduction, full body text, authors, citations, keywords (attempted), year of publication (attempted).
 
 After information are extracted, they are dumped under `pickles/` which are used as input to `expert_recommend.py`.
+
+Some of the processing code (such as building author profiles) are under `expert_recommend.py`, they are not called in `main()` because they are also saved as pickles
