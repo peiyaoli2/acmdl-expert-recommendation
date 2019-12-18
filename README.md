@@ -13,7 +13,7 @@ ACM Digital Library - 25262 papers in Machine Learning, Natural Language Process
 
 Link to pdf: [Login with U of I account](https://drive.google.com/file/d/1tPzuOdgj4DK13rWS4d_GJ7tG-0UUwV2B/view?usp=sharing) (You don't need this to run the code)
 
-Link to raw grobid file (input to `process_xml.py`): [Login with U of I account](https://drive.google.com/file/d/1Z3hLffwzAhKlSln4Y3fqWNZAjv-SnABz/view?usp=sharing) (You don't need this to run the code)
+Link to raw grobid file (input to `process_xml.py`): [Login with U of I account](https://drive.google.com/file/d/1Z3hLffwzAhKlSln4Y3fqWNZAjv-SnABz/view?usp=sharing) (You don't need to run `process_xml.py`)
 
 ## Code
 
