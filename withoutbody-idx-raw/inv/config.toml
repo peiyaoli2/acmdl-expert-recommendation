@@ -1,0 +1,14 @@
+index = "withoutbody-idx-raw"
+corpus = "line.toml"
+stop-words = "lemur-stopwords.txt"
+dataset = "withoutbody-raw"
+prefix = "."
+[ranker]
+	k3 = 500
+	b = 0.740000
+	k1 = 1.80000
+	method = "bm25"
+[[analyzers]]
+	filter = "default-unigram-chain"
+	ngram = 1
+	method = "ngram-word"
