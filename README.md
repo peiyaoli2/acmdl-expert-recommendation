@@ -24,6 +24,13 @@ Link to raw grobid file (input to `process_xml.py`): [Login with U of I account]
 #### Arguments
 `--query` specifies a query name, e.g. `--query='machine learning'`. Default is set to `'information retrieval'`
 
-`--write_to_file` specifies if output will be a txt file under the `output/` folder. Default is 0.
+`--write_to_file` specifies if output will be a txt file under the `output/` folder. Default is 0 and will print to console.
 
 If set to 1, the name of the file would be \[query_name\].txt
+
+### `process_xml.py`
+You don't need to run this code.
+
+This file contains all the preprocessing we did from the raw grobid file, e.g. extracting information such as title, abstract, introduction, full body text, authors, citations, keywords (attempted), year of publication (attempted).
+
+After information are extracted, they are dumped under `pickles/` which are used as input to `expert_recommend.py`.
