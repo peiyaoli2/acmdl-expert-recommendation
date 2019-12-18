@@ -35,7 +35,7 @@ Email:  croft@cs.umass.edu
 Affiliation:  University of Massachusetts
 Reason(s) for recommendation:
 Expert in field with 115 papers and 198 citations
-Author of top matching paper(s):
+Author of relevant paper(s):
 Inference Networks for Document Retrieval
 Lexical Ambiguity and Information Retrieval
 A Unified Relevance Model for Opinion Retrieval
@@ -46,7 +46,7 @@ Email:  czhai@cs.uiuc.edu
 Affiliation:  Department of Computer Science, University of Illinois at Urbana-Champaign
 Reason(s) for recommendation:
 Expert in field with 88 papers and 116 citations
-Author of top matching paper(s):
+Author of relevant paper(s):
 Context-Sensitive Information Retrieval Using Implicit Feedback
 Exploiting Query History for Document Ranking in Interactive Information Retrieval
 Statistical Language Models for Information Retrieval
@@ -60,7 +60,7 @@ Email:  callan@cs.cmu.edu
 Affiliation:  Language Technologies Institute Carnegie Mellon University Pittsburgh
 Reason(s) for recommendation:
 Expert in field with 62 papers and 74 citations
-Author of top matching paper(s):
+Author of relevant paper(s):
 The Effectiveness of Query Expansion for Distributed Information Retrieval
 
 
@@ -69,7 +69,7 @@ Email:  kamps@uva.nl
 Affiliation:  University of Amsterdam
 Reason(s) for recommendation:
 Expert in field with 55 papers and 13 citations
-Author of top matching paper(s):
+Author of relevant paper(s):
 Report on the SIGIR 2008 Workshop on Focused Retrieval
 SIGIR WORKSHOP REPORT Report on the SIGIR 2007 Workshop on Focused Retrieval
 
@@ -79,7 +79,7 @@ Email:  aberger@cs.cmu.edu
 Affiliation:  School of Computer Science, Carnegie Mellon University Pittsburgh
 Reason(s) for recommendation:
 Expert in field with 4 papers and 63 citations
-Author of top matching paper(s):
+Author of relevant paper(s):
 Information Retrieval as Statistical Translation
 
 
@@ -88,7 +88,7 @@ Email:  jrwen@microsoft.com
 Affiliation:  Microsoft Research Asia
 Reason(s) for recommendation:
 Expert in field with 42 papers and 21 citations
-Author of top matching paper(s):
+Author of relevant paper(s):
 Web Object Retrieval
 
 
@@ -97,7 +97,7 @@ Email:  wyma@microsoft.com
 Affiliation:  Microsoft Research Asia
 Reason(s) for recommendation:
 Expert in field with 34 papers and 26 citations
-Author of top matching paper(s):
+Author of relevant paper(s):
 The MIR 2005 Panel Multimedia Information Retrieval: What is it, and why isn't anyone using it?
 Web Object Retrieval
 
@@ -107,7 +107,7 @@ Email:  fabio.crestani@usi.ch
 Affiliation:  University of Lugano Lugano
 Reason(s) for recommendation:
 Expert in field with 42 papers and 14 citations
-Author of top matching paper(s):
+Author of relevant paper(s):
 CONFERENCE REPORT Report on ECIR 2016: 38th European Conference on Information Retrieval
 
 
@@ -116,7 +116,7 @@ Email:  hiemstra@cs.utwente.nl
 Affiliation:  University of Twente
 Reason(s) for recommendation:
 Expert in field with 31 papers and 23 citations
-Author of top matching paper(s):
+Author of relevant paper(s):
 Parsimonious Language Models for Information Retrieval
 
 
@@ -125,7 +125,7 @@ Email:
 Affiliation:  Department of Computer Science, Department of Computer Science Hong, Hong Kong Baptist University, Kong Baptist University, Hong Kong Baptist University
 Reason(s) for recommendation:
 Expert in field with 47 papers and 2 citations
-Author of top matching paper(s):
+Author of relevant paper(s):
 Quality Information Retrieval for the World Wide Web
 
 

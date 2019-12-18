@@ -5,7 +5,9 @@ import os
 import pickle
 
 
-def process_A():
+def process_body_text_in_xml():
+    # go through the xml file and fetch body, abstract, title, introduction text
+    # and dump to corresponding pickle files
     count = 0
     folder = 'input_folder/'
     body_dict = {}
@@ -99,7 +101,9 @@ def process_A():
     f.close()
 
 
-def process_C():
+def process_reference_in_xml():
+    # go through the xml file and fetch all reference text
+    # and dump to corresponding pickle files
     count = 0
     folder = 'input_folder/'
     for file_name in os.listdir(folder):
@@ -150,7 +154,9 @@ def process_C():
             f.write("\n")
 
 
-def process_keywords():
+def process_keywords_in_xml():
+    # go through the xml file and fetch all keywords text
+    # and dump to corresponding pickle files
     count = 0
     folder = 'input_folder/'
     nonKeywords = 0
@@ -201,9 +207,10 @@ def process_keywords():
     print(nonKeywords)
 
 
-def process_authors():
+def process_authors_in_xml():
+    # go through the xml file and fetch all authors text
+    # and dump to corresponding pickle files
     folder = "input_folder/"
-    out_folder = "authors/"
     count = 0
     authors = {}
     for file_name in os.listdir(folder):
@@ -265,7 +272,9 @@ def process_authors():
     f.close()
 
 
-def processPubDate():
+def process_publication_Date_in_xml():
+    # go through the xml file and fetch all publication date text
+    # and dump to corresponding pickle files
     count = 0
     folder = 'input_folder/'
     nonPub = 0
@@ -308,99 +317,12 @@ def processPubDate():
     print(nonPub)
 
 
-def dumpToPickle():
-    # count = 0
-    # folder = "keywords/"
-    # keywords_dict = {}
-    # for file_name in os.listdir(folder):
-    #     if count % 1000 == 0:
-    #         print(count)
-    #     count += 1
-    #     curr_file = folder + file_name
-    #     with open(curr_file, 'r') as f:
-    #         keywords_dict[file_name] = []
-    #         content = f.readlines()
-    #         for i in content:
-    #             line = i.strip()
-    #             keywords_dict[file_name].append(line)
-    # print("dump keywords to pickle")
-    # f = open('keywords_pickle', 'wb')
-    # pickle.dump(keywords_dict, f)
-    # f.close()
-    #
-    # count = 0
-    # folder = "refer/"
-    # refer_dict = {}
-    # for file_name in os.listdir(folder):
-    #     if count % 1000 == 0:
-    #         print(count)
-    #     count += 1
-    #     curr_file = folder + file_name
-    #     with open(curr_file, 'r') as f:
-    #         refer_dict[file_name] = []
-    #         content = f.readlines()
-    #         for i in content:
-    #             line = i.strip()
-    #             refer_dict[file_name].append(line)
-    # print("dump reference to pickle")
-    # f = open('refer_pickle', 'wb')
-    # pickle.dump(refer_dict, f)
-    # f.close()
-
-    count = 0
-    folder = "authors/"
-    authors_dict = {}
-    for file_name in os.listdir(folder):
-        if file_name == '.DS_Store':
-            continue
-
-        authors_dict[file_name] = []
-        if count % 1000 == 0:
-            print(count)
-        count += 1
-        curr_file = folder + file_name
-        tree = ET.parse(curr_file)
-        root = tree.getroot()
-        child_bfs = []
-        for child in root:
-            child_bfs.append(child)
-
-        while child_bfs:
-            curr = []
-            node = child_bfs.pop(0)
-            for child in node:
-                curr.append(child.text)
-            authors_dict[file_name].append(curr)
-
-    print("dump authors to pickle")
-    f = open('authors_pickle', 'wb')
-    pickle.dump(authors_dict, f)
-    f.close()
-
-
 def main():
-    # process_authors()
-    # print("read in authors from pickle")
-    # f = open('authors_pickle', 'rb')
-    # authors = pickle.load(f)
-    # print(1)
-
-    # print("read in refer from pickle")
-    # f = open('refer_pickle', 'rb')
-    # refer = pickle.load(f)
-    # print(1)
-
-    # process_A()
-
-    # print("read in introduction from pickle")
-    # f = open('body_pickle', 'rb')
-    # intro = pickle.load(f)
-    # print(1)
-
-    print("read in Pub date from pickle")
-    f = open('PubDate_pickle', 'rb')
-    intro = pickle.load(f)
-    print(1)
+    process_authors_in_xml()
+    process_body_text_in_xml()
+    process_keywords_in_xml()
+    process_publication_Date_in_xml()
+    process_reference_in_xml()
 
 
 if __name__ == "__main__":

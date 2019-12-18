@@ -317,7 +317,7 @@ def print_results(author_search_result, expert_search_result, f):
             else:
                 print('Affiliation: ', a[1]['affiliation'], file=f)
             print('Reason(s) for recommendation:\nExpert in field with {} papers and {} citations'.format(a[1]['paperCount'], a[1]['citationCount']), file=f)
-            print('Author of top matching paper(s):', file=f)
+            print('Author of relevant paper(s):', file=f)
             paper_name_dedup = set()
             for paper_name in a[2]:
                 if paper_name not in paper_name_dedup:
