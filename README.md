@@ -35,4 +35,4 @@ This file contains all the preprocessing code we did from the raw grobid file, e
 
 After information are extracted, they are dumped under `pickles/` which are used as input to `expert_recommend.py`.
 
-Some of the processing code (such as building author profiles) are under `expert_recommend.py`, they are not called in `main()` because they are also saved as pickles.
+Some of the preprocessing code (such as building author profiles) are under `expert_recommend.py`, they are not called in `main()` because they are also saved as pickles.
