@@ -24,9 +24,9 @@ Link to raw grobid file (input to `process_xml.py`): [Login with U of I account]
 #### Arguments
 `--query` specifies a query name, e.g. `--query='machine learning'`. Default is set to `'information retrieval'`
 
-`--write_to_file` specifies if output will be a txt file under the `output/` folder. Default is 0 and will print to console.
+`--write_to_file` specifies if output will be printed to console or txt file. Default is 0 and will print to console.
 
-If set to 1, the name of the file would be \[query_name\].txt
+If set to 1, the name of the file would be \[query_name\].txt under the `output/` folder.
 
 ### `process_xml.py`
 You don't need to run this code.
